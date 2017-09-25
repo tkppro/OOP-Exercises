@@ -51,10 +51,8 @@ package exercises;
 			this.qty = qty;
 		}
 
-		@Override
 		public String toString() {
-			
-			return 	"Book[name=" + name + "Author[name=" + nameA + ", email=" + email +", gender=" + gender +"]," + ", price=" + price + ", qty=" + qty +"]";
+			return 	"Book[name=" + name + author.toString() + ", price=" + price + ", qty=" + qty +"]";
 		}
 		
 		public String getAuthorName(){
