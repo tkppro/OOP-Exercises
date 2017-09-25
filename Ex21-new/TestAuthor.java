@@ -24,9 +24,9 @@ public class TestAuthor {
 		Book anotherBook = new Book("more Java", 
 		      new Author("Paul Tan", "paul@somewhere.com", 'm'), 29.95);
 		System.out.println(anotherBook);  // toString()
-		
-		anotherBook.getAuthor().getNameA();
-		anotherBook.getAuthor().getEmail();
-		anotherBook.getAuthor().getGender();
+
+		System.out.println(anotherBook.getAuthor().getNameA());
+		System.out.println(anotherBook.getAuthor().getEmail());
+		System.out.println(anotherBook.getAuthor().getGender());
 	}
 }
